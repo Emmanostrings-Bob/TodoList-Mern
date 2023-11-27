@@ -1,0 +1,51 @@
+.home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.create_form input{
+    width: 300px;
+    padding: 10px;
+    border-bottom: 2px solid;
+    outline: none;
+}
+
+.create_form button{
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.todo{
+    width: 50vh;
+    padding: 10px;
+    margin: 10px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    background: conic-gradient(from 90deg at 40% -25%, #ff0015, #f79d03, #ee0786, #e6390a, #de0d0d, #d61039, #cf1261, #c71585, #cf1261, #d61039, #de0d0d, #ee6907, #f79d03, #ffd700, #ff6200, #ff5100);
+    border: 2px solid;
+    border-radius: 20px;
+    color: white;
+    justify-content: space-between;
+}
+
+
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox .icon {
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.todo div span{
+    margin: 0px 5px 0px 4px;
+}
+
+.todo div .icon {
+    cursor: pointer;
+}
